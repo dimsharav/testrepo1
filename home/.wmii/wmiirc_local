@@ -1,0 +1,30 @@
+MODKEY=Mod4
+
+# Colors tuples: "<text> <background> <border>"
+export WMII_NORMCOLORS='#000000 #606579 #000000'
+export WMII_FOCUSCOLORS='#000000 #30a0ff #000000'
+
+export WMII_BACKGROUND='#258ee7'
+
+set -- $(echo $WMII_NORMCOLORS $WMII_FOCUSCOLORS)
+
+# Font
+export WMII_FONT='xft:Monaco-10'
+
+# Terminal
+export WMII_TERM="lxterminal"
+
+# Tagging Rules
+wmiir write /tagrules <<!
+/MPlayer|VLC/ -> ~
+/Firefox/ -> 4
+/gimp/ -> 6
+/xchat/ -> 5
+/pidgin/ -> 5
+/pcmanfm/ -> 7
+/trayer/ -> 0
+/Zim/ -> 3
+/Oracle/ -> 0
+!
+
+wmiir xwrite /ctl "font xft:DejaVu Sans Mono-10"

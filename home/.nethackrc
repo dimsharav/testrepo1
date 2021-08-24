@@ -1,0 +1,3 @@
+ROLE=Samurai
+OPTIONS=color, time, showexp, male, !autopickup
+DOGNAME=Byte

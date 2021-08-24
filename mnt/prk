@@ -1,0 +1,14 @@
+#!/bin/sh
+mount //192.168.0.1/c$ /media/net/terra/c -o iocharset=utf8,dir_mode=0777,file_mode=0777,credentials=/opt/mnt/usrprk
+mount //192.168.0.1/d$ /media/net/terra/d -o iocharset=utf8,dir_mode=0777,file_mode=0777,credentials=/opt/mnt/usrprk
+mount //192.168.0.1/e$ /media/net/terra/e -o iocharset=utf8,dir_mode=0777,file_mode=0777,credentials=/opt/mnt/usrprk
+
+mount //192.168.0.3/c$ /media/net/borealis/c -o iocharset=utf8,dir_mode=0777,file_mode=0777,credentials=/opt/mnt/usrprk
+
+mount //192.168.0.7/c$ /media/net/uranus/c -o iocharset=utf8,dir_mode=0777,file_mode=0777,credentials=/opt/mnt/usrprk
+mount //192.168.0.7/e$ /media/net/uranus/e -o iocharset=utf8,dir_mode=0777,file_mode=0777,credentials=/opt/mnt/usrprk
+
+mount //192.168.0.120/c$ /media/net/237srv/c -o iocharset=utf8,dir_mode=0777,file_mode=0777,credentials=/opt/mnt/usrprk
+mount //192.168.0.120/d$ /media/net/237srv/d -o iocharset=utf8,dir_mode=0777,file_mode=0777,credentials=/opt/mnt/usrprk
+
+mount //192.168.0.49/c$ /media/net/tv/c -o iocharset=utf8,dir_mode=0777,file_mode=0777,credentials=/opt/mnt/usrprk

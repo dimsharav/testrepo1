@@ -1,0 +1,3 @@
+#!/bin/sh
+sh /home/dimsharav/scripts/prkvm_savestate.sh
+sudo reboot

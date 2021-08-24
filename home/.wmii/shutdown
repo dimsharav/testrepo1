@@ -1,0 +1,2 @@
+sh /home/dimsharav/scripts/prkvm_savestate.sh
+sudo shutdown -h now

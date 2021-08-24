@@ -1,0 +1,2 @@
+#!/bin/bash
+import ~/scr/scr$(date +%Y%m%d%H%M%S).png

@@ -1,0 +1,4 @@
+#!/bin/sh
+mount //192.168.0.3/c$ /media/net/ra/c -o iocharset=utf8,dir_mode=0777,file_mode=0777,credentials=/opt/usrhome
+mount //192.168.0.3/d$ /media/net/ra/d -o iocharset=utf8,dir_mode=0777,file_mode=0777,credentials=/opt/usrhome
+mount //192.168.0.3/e$ /media/net/ra/e -o iocharset=utf8,dir_mode=0777,file_mode=0777,credentials=/opt/usrhome
